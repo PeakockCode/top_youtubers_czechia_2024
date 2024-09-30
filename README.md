@@ -23,7 +23,7 @@ Overview:
   - Creating a DataFrame with Statistics:
     Convert the statistics list into a Pandas DataFrame and merge it with the original DataFrame for comprehensive data.
   - Finalizing the Data:
-    Clean up the DataFrame by removing unnecessary columns and save the final data to a new CSV file (final_czech_rep_youtube.csv).
+    Clean up the DataFrame by removing unnecessary columns and save the final data to a new CSV file (updated_czech_rep_youtube.csv).
 
 4. SQL Data Cleaning:
   Import the merged data into Microsoft SQL Server for further cleaning and standardization, creating a view for easier access to necessary columns.
