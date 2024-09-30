@@ -29,5 +29,5 @@ Overview:
   Import the merged data into Microsoft SQL Server for further cleaning and standardization, creating a view for easier access to necessary columns.
 
 5. Create Power BI dashboard:
-   Use the cleaned data to create visualizations and dashboards in Power BI for further analysis.
-   - You can also download original dashboard file (TopYoutubersCZ2024.pbix).
+  Use the cleaned data to create visualizations and dashboards in Power BI for further analysis.
+  - You can also download original dashboard file (TopYoutubersCZ2024.pbix).
