@@ -6,7 +6,7 @@ Overview:
 
 1. Data source:
   Download CSV file (source_czech_rep_youtube.csv) containing information about various Czech YouTube channels.
-  - Source of the data: https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download
+  - Source of the data: https://starngage.com/plus/en-us/influencer/ranking/youtube/czech-republic
 
 2. Data update with Pandas:
   - Setting Up the Environment:
