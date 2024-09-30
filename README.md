@@ -9,28 +9,21 @@ Overview:
   source of the data: https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download
 
 2. Data update with Pandas
-  - a) Setting Up the Environment
+  - Setting Up the Environment
     Install necessary libraries using PIP or Anaconda to prepare for data processing.
-   
-  - b) Importing Libraries
+  - Importing Libraries
     Import essential libraries like pandas, dotenv, and google-api-python-client into your Python environment.
-    
-  - c)Loading Environment Variables
+  - Loading Environment Variables
     Load sensitive information, such as the YouTube API key, from a .env file for secure access.
-    
-  - d) Retrieving YouTube Channel Statistics
+  - Retrieving YouTube Channel Statistics
     Define a function to fetch statistics (name, subscribers, views, videos) for each YouTube channel using their channel IDs.
-    
-  - e) Processing Channel Data
-    Load the CSV data and extract unique channel IDs for further analysis.
-    
-  - f) Collecting Channel Statistics
+  - Processing Channel Data
+    Load the CSV data and extract unique channel IDs for further analysis. 
+  - Collecting Channel Statistics
     Loop through the channel IDs, retrieve statistics, and compile them into a list.
-    
-  - g) Creating a DataFrame with Statistics
+  - Creating a DataFrame with Statistics
     Convert the statistics list into a Pandas DataFrame and merge it with the original DataFrame for comprehensive data.
-    
-  - h) Finalizing the Data
+  - Finalizing the Data
     Clean up the DataFrame by removing unnecessary columns and save the final data to a new CSV file (final_czech_rep_youtube.csv).
 
 4. SQL Data Cleaning
