@@ -1,13 +1,13 @@
 # Repository of the Czech Top YouTubers (2024)
-This workflow outlines the process of downloading, processing, and analyzing data from YouTube channels using Python and SQL. 
-By leveraging the YouTube API, Pandas for data manipulation, and SQL for data cleaning and organization, you can effectively manage and analyze YouTube channel data.
+This workflow outlines the process of downloading, processing, analyzing and visualizing data from YouTube channels using Python, SQL and Power BI. 
+By leveraging the YouTube API, Pandas for data manipulation, SQL for data cleaning and organization, and Power BI for analyse and visualization, you can effectively manage and analyze YouTube channel data.
 
 Overview:
 
 1. Data source:
   Download CSV file (source_czech_rep_youtube.csv) containing information about various Czech YouTube channels.
 
-2. Data update with Pandas:
+2. Data update with Pandas (Python):
   - Setting Up the Environment:
     Install necessary libraries using PIP or Anaconda to prepare for data processing.
   - Importing Libraries:
