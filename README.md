@@ -6,9 +6,9 @@ Overview:
 
 1. Data source:
   Download CSV file (source_czech_rep_youtube.csv) containing information about various Czech YouTube channels.
-  source of the data: https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download
+  - Source of the data: https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download
 
-2. Data update with Pandas
+2. Data update with Pandas:
   - Setting Up the Environment:
     Install necessary libraries using PIP or Anaconda to prepare for data processing.
   - Importing Libraries:
@@ -26,8 +26,8 @@ Overview:
   - Finalizing the Data:
     Clean up the DataFrame by removing unnecessary columns and save the final data to a new CSV file (final_czech_rep_youtube.csv).
 
-4. SQL Data Cleaning
+4. SQL Data Cleaning:
   Import the merged data into Microsoft SQL Server for further cleaning and standardization, creating a view for easier access to necessary columns.
 
-5. Create Power BI dashboard
+5. Create Power BI dashboard:
    Use the cleaned data to create visualizations and dashboards in Power BI for further analysis.
