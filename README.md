@@ -1,4 +1,4 @@
-# Repository of the Czech Top YouTubers (09/2024)
+# Repository of the Czech Top YouTubers (2024)
 This workflow outlines the process of downloading, processing, and analyzing data from YouTube channels using Python and SQL. 
 By leveraging the YouTube API, Pandas for data manipulation, and SQL for data cleaning and organization, you can effectively manage and analyze YouTube channel data.
 
