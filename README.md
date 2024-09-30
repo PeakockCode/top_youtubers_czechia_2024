@@ -26,8 +26,8 @@ Overview:
     Clean up the DataFrame by removing unnecessary columns and save the final data to a new CSV file (updated_czech_rep_youtube.csv).
 
 4. SQL Data Cleaning:
-  Import the merged data into Microsoft SQL Server for further cleaning and standardization. Create a view for easier access to the necessary columns. Export the final file as 'final_czech_rep_youtube.csv'."
+  Import the merged data into Microsoft SQL Server for further cleaning and standardization. Create a view for easier access to the necessary columns. Export the final file as 'final_czech_rep_youtube.csv'.
 
 5. Create Power BI dashboard:
-  Use the cleaned data to create visualizations and dashboards in Power BI for further analysis.
+  Use the cleaned data (you can access the already created view directly from Power BI or import the final file 'final_czech_rep_youtube.csv') to create visualizations and dashboards in Power BI for further analysis.
   - You can check the image of the dashboard (Top YouTubers CZ 2024-Dashboard Image Overview.png) or download original dashboard Power BI file (TopYoutubersCZ2024.pbix).
