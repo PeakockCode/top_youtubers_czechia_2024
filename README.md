@@ -6,7 +6,6 @@ Overview:
 
 1. Data source:
   Download CSV file (source_czech_rep_youtube.csv) containing information about various Czech YouTube channels.
-  - Source of the data: https://starngage.com/plus/en-us/influencer/ranking/youtube/czech-republic
 
 2. Data update with Pandas:
   - Setting Up the Environment:
