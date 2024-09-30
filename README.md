@@ -30,4 +30,4 @@ Overview:
 
 5. Create Power BI dashboard:
   Use the cleaned data to create visualizations and dashboards in Power BI for further analysis.
-  - You can also download original dashboard file (TopYoutubersCZ2024.pbix).
+  - You can check the image of the dashboard (Top YouTubers CZ 2024-Dashboard Image Overview.png) or download original dashboard Power BI file (TopYoutubersCZ2024.pbix).
