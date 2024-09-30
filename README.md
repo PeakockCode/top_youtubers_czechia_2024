@@ -1,1 +1,1 @@
-# social_media_2024
+# Created repository of czech top youtubers 09/2024 project
