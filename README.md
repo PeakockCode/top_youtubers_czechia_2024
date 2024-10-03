@@ -16,4 +16,4 @@ Overview:
 5. Create Power BI dashboard:
   Use the cleaned data (you can either access the pre-created view directly from Power BI/Tableau or import the final file 'final_czech_rep_youtube.csv') to create visualizations and dashboards in Power BI/Tableau for further analysis.
 
-Note: You can view an image of the dashboard (Top_YouTubers_CZ_2024-Dashboard_Image_Overview.png) or download the Power BI/Tableau file with the original dashboard (Power BI: TopYoutubersCZ2024_PowerBI_dashboard.pbix or Tableau: TopYouTubersCZ2024_Tableau_dashboard.twb).
+Note: You can view an image of the dashboard (TopYouTubersCZ2024-DashboardImageOverview.png) or download the Power BI/Tableau file with the original dashboard (Power BI: TopYoutubersCZ2024_PowerBI_dashboard.pbix or Tableau: TopYouTubersCZ2024_Tableau_dashboard.twb).
