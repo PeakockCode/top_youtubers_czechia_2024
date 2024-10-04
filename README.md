@@ -14,6 +14,6 @@ Overview:
   Import the updated data into Microsoft SQL Server for further cleaning and standardization. Create a view for easier access to the necessary columns. Export the final file as 'final_czech_rep_youtube.csv'.
 
 5. Create Power BI dashboard:
-  Use the cleaned data (you can either access the pre-created view directly from Power BI/Tableau or import the final file 'final_czech_rep_youtube.csv') to create visualizations and dashboards in Power BI/Tableau for further analysis.
+  Use the cleaned data (you can either access the pre-created view directly from Power BI/Tableau or import the final file 'final_czech_rep_youtube.csv') to create visualizations and dashboards in Power BI or Tableau for further analysis.
 
-Note: You can view an image of the dashboard (TopYouTubers_CZ2024_DashboardImage.png) or download the Power BI/Tableau file with the original dashboard (Power BI: TopYoutubers_CZ2024_PowerBIdashboard.pbix or Tableau: TopYouTubers_CZ2024_TableauDashboard.twb).
+Note: You can view an image of the dashboard (TopYouTubers_CZ2024_DashboardImage.png) or download the Power BI or Tableau file with the original dashboard (Power BI: TopYoutubers_CZ2024_PowerBIdashboard.pbix or Tableau: TopYouTubers_CZ2024_TableauDashboard.twb).
