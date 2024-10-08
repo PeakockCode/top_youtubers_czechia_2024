@@ -15,7 +15,7 @@ Overview:
   Import the updated data into Microsoft SQL Server for further cleaning and standardization. Create a view to enable easier access to necessary columns. The SQL code is available in the SQLQuery_Youtube.sql file.
   Export the final cleaned data as final_czech_rep_youtube.csv.
 
-5. Create Power BI dashboard:
+5. Create Power BI/Tableau dashboard:
   Use the cleaned data (either by directly accessing the pre-created SQL view or by importing the final final_czech_rep_youtube.csv file) to build visualizations and dashboards in Power BI or Tableau for further analysis.
 
 Note: You can view an image of the dashboard (TopYouTubers_CZ2024_DashboardImage.png) or download the Power BI or Tableau file with the original dashboard (Power BI: TopYoutubers_CZ2024_PowerBidashboard.pbix or Tableau: TopYouTubers_CZ2024_TableauDashboard.twb).
