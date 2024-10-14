@@ -54,6 +54,6 @@ ORDER BY NetProfit DESC;
 
 -- TOP 3 
 -- Channel Name		Views/Video		Pot.Prod.SalesPerVideo	Pot.RevenuePerVideo		NetProfit		
--- Mr. Michal		4560000			91200					18240000				17740000
--- Silvie Mahdal	3480000			69600					13920000				13420000
--- Puzzle guy		1750000			35000					7000000					6500000
+-- Mr. Michal		4560000			91200			18240000			17740000
+-- Silvie Mahdal	3480000			69600			13920000			13420000
+-- Puzzle guy		1750000			35000			7000000				6500000
