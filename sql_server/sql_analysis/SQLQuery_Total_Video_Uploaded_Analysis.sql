@@ -52,8 +52,8 @@ JOIN #Variables AS v ON 1 = 1
 ORDER BY NetProfit DESC, Channel_Name ASC;
 
 -- TOP 3 
--- Channel Name				Views/Video		Pot.Prod.SalesPerVideo	Pot.RevenuePerVideo		NetProfit
--- MenT						300000			6000					1200000					700000
--- Alexander Zakshevsky		140000			2800					560000					60000
--- Godzu					130000			2600					520000					20000
--- PedrosGame				130000			2600					520000					20000
+-- Channel Name			Views/Video		Pot.Prod.SalesPerVideo	Pot.RevenuePerVideo		NetProfit
+-- MenT				300000			6000			1200000				700000
+-- Alexander Zakshevsky		140000			2800			560000				60000
+-- Godzu			130000			2600			520000				20000
+-- PedrosGame			130000			2600			520000				20000
