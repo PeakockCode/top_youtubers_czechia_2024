@@ -1,3 +1,5 @@
+![header image](images/header.png)
+
 # Repository of the Czech Top YouTubers (2024)
 This workflow outlines the process of downloading, processing, analyzing and visualizing data from YouTube channels using Python, SQL and Power BI/Tableau. 
 By leveraging the YouTube API, Pandas for data manipulation, SQL for data cleaning and organization, and Power BI/Tableau for analyse and visualization, you can effectively manage and analyze YouTube channel data.
