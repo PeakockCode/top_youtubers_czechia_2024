@@ -5,14 +5,16 @@
 USE social_media_db;
 
 -- SELECT all data to check
-SELECT *
-  FROM social_media_db..TopCzechYoutubers2024;
+SELECT 
+	*
+FROM 
+	social_media_db..TopCzechYoutubers2024;
 
 /*
 CLEANING DATA PROCESS
 
 STEPS TO DO:
-1. Remove Duplicates - we don´t need to, because we know we don´t have any
+1. Remove Duplicates - we donÂ´t need to, because we know we donÂ´t have any
 2. Standardize the Data - extract the Youtube channel names from column called "NAME" and Rename the column names
 3. Null Values or blank Values - We already know we are not going to use columns with null values
 4. Remove unnecessary columns - We remove unnecessary columns by creating special view (with columns we need)
@@ -24,8 +26,9 @@ STEPS TO DO:
 -- A. extract the Youtube channel names from NAME using CHARINDEX (in mySQL LOCATE) and SUBSTRING OR LEFT functions (in mySQL is SUBSTRING and LEFT as well)
 -- and change column names and data type (Name) to NVARCHAR to be able to include all characters (Czech, Russian, etc) 
 SELECT
-CAST(LEFT(NAME, CHARINDEX('@', NAME)-1) AS NVARCHAR(100)) AS Name 
-FROM social_media_db..TopCzechYoutubers2024;
+	CAST(LEFT(NAME, CHARINDEX('@', NAME)-1) AS NVARCHAR(100)) AS Name 
+FROM 
+	social_media_db..TopCzechYoutubers2024;
 -- second example
 --SELECT SUBSTRING(NAME, 1, CHARINDEX('@', NAME)-1) AS Name, total_subscribers AS Total_Subscribers, total_views AS Total_Views, total_videos AS Total_Videos,
 --Engagement_Rate,  Monthly_Views, Monthly_Subscriber_Growth, Absolute_Monthly_Subscriber_Growth
@@ -41,9 +44,14 @@ SELECT
 	total_views AS Total_Views, 
 	total_videos AS Total_Videos,
 	Engagement_Rate
-FROM social_media_db..TopCzechYoutubers2024;
+FROM 
+	social_media_db..TopCzechYoutubers2024;
 
-SELECT * FROM social_media_db..ViewTopCzechYoutubers2024;
+
+SELECT 
+	* 
+FROM 
+	social_media_db..ViewTopCzechYoutubers2024;
 
 /*
 QUALITY DATA CHECK:
@@ -69,7 +77,10 @@ USE social_media_db;
 ---------------------------------------------------------------------------------------------------------
 -- 1 row count check - 100 rows - OK (PASSED!)
 
-SELECT COUNT(1) FROM social_media_db..ViewTopCzechYoutubers2024;
+SELECT 
+	COUNT(1) 
+FROM 
+	social_media_db..ViewTopCzechYoutubers2024;
 ---------------------------------------------------------------------------------------------------------
 -- 2A column count check - 5 fields - OK (PASSED!)
 
@@ -110,4 +121,7 @@ HAVING
 	COUNT(1) > 1;
 
 -- Final check of the final table
-SELECT * FROM social_media_db..ViewTopCzechYoutubers2024;
+SELECT 
+	* 
+FROM 
+	social_media_db..ViewTopCzechYoutubers2024;
