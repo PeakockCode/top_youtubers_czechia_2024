@@ -50,7 +50,7 @@ JOIN #Variables AS v ON 1 = 1
 ORDER BY NetProfit DESC, Channel_Name ASC;
 
 -- TOP 3 
--- Channel Name				Views/Video		Pot.Prod.SalesPerVideo	Pot.RevenuePerVideo		NetProfit
--- ViralBrothers SHOW		6660000			133200					26640000				25840000
--- Štístko a Poupěnka		3760000			75200					15040000				14240000
--- Puzzle guy				1750000			35000					7000000					6200000
+-- Channel Name			Views/Video		Pot.Prod.SalesPerVideo	Pot.RevenuePerVideo		NetProfit
+-- ViralBrothers SHOW		6660000			133200			26640000			25840000
+-- Štístko a Poupěnka		3760000			75200			15040000			14240000
+-- Puzzle guy			1750000			35000			7000000				6200000
