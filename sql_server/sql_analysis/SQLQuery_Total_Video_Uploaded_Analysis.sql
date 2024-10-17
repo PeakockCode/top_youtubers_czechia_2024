@@ -12,7 +12,7 @@ USE social_media_db;
 -- DECLARE @conversionRate FLOAT = 0.02;			-- the conversion rate @ 2%
 -- DECLARE @productCost MONEY = 200.0;				-- the product cost @ 200 Kč
 -- DECLARE @campaignCostPerVideo MONEY = 50000.0;	-- the campaign cost per Video @ 50,000 Kč
--- DECLARE @campaignNumberOfVideos INT = 10;		-- the campaign number of videos @ 10
+-- DECLARE @campaignNumberOfVideos INT = 12;		-- the campaign number of videos @ 12
 
 -- Create temp table #Variables and insert all variables
 DROP TABLE IF EXISTS #Variables;
@@ -23,7 +23,7 @@ CREATE TABLE #Variables(
 	campaignNumberOfVideos INT
 );
 INSERT INTO #Variables(conversionRate, productCost, campaignCostPerVideo, campaignNumberOfVideos)
-VALUES(0.02, 200.0, 50000.0, 10);
+VALUES(0.02, 200.0, 50000.0, 12);
 -- SELECT * FROM #Variables;
 
 -- 2) Create CTEs (Avg Views per Video)
@@ -53,7 +53,7 @@ ORDER BY NetProfit DESC, Channel_Name ASC;
 
 -- TOP 3 
 -- Channel Name			Views/Video		Pot.Prod.SalesPerVideo	Pot.RevenuePerVideo		NetProfit
--- MenT				300000			6000			1200000				700000
--- Alexander Zakshevsky		140000			2800			560000				60000
--- Godzu			130000			2600			520000				20000
--- PedrosGame			130000			2600			520000				20000
+-- MenT				300000			6000			1200000				600000
+-- Alexander Zakshevsky		140000			2800			560000				-40000
+-- Godzu			130000			2600			520000				-80000
+-- PedrosGame			130000			2600			520000				-80000
