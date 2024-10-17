@@ -11,7 +11,7 @@ USE social_media_db;
 -- 1) Variables (can be created by declaration or using a temporary table)
 -- DECLARE @conversionRate FLOAT = 0.02;			-- the conversion rate @ 2%
 -- DECLARE @productCost MONEY = 200.0;				-- the product cost @ 200 Kč
--- DECLARE @campaignCost MONEY = 800000.0;	-- the campaign cost @  800,000 Kč
+-- DECLARE @campaignCost MONEY = 960000.0;	-- the campaign cost @  960000.0 Kč
 
 -- Create temp table #Variables and insert all variables
 DROP TABLE IF EXISTS #Variables;
@@ -21,7 +21,7 @@ CREATE TABLE #Variables(
 	campaignCost MONEY,
 );
 INSERT INTO #Variables(conversionRate, productCost, campaignCost)
-VALUES(0.02, 200.0, 800000.0);
+VALUES(0.02, 200.0, 960000.0);
 -- SELECT * FROM #Variables;
 
 -- 2) Create CTEs (Avg Views per Video)
@@ -51,6 +51,6 @@ ORDER BY NetProfit DESC, Channel_Name ASC;
 
 -- TOP 3 
 -- Channel Name			Views/Video		Pot.Prod.SalesPerVideo	Pot.RevenuePerVideo		NetProfit
--- ViralBrothers SHOW		6660000			133200			26640000			25840000
--- Štístko a Poupěnka		3760000			75200			15040000			14240000
--- Puzzle guy			1750000			35000			7000000				6200000
+-- ViralBrothers SHOW		6660000			133200			26640000			25680000
+-- Štístko a Poupěnka		3760000			75200			15040000			14080000
+-- Puzzle guy			1750000			35000			7000000				6040000
