@@ -111,7 +111,7 @@ WHERE
 ---------------------------------------------------------------------------------------------------------
 -- 4 duplicate count check - OK, no duplicates (PASSED!)
 SELECT 
-	Channel_Name,
+	Channel_Name AS channel_name,
 	COUNT(1) AS Channel_count
 FROM 
 	social_media_db..ViewTopCzechYoutubers2024
