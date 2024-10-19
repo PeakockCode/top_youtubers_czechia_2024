@@ -40,7 +40,7 @@ ORDER BY Total_Videos DESC
 )
 -- 3) Select necessary columns for the analysis
 SELECT 
-	Channel_Name,
+	Channel_Name AS ChannelName,
 	ViewsPerVideo,
 	(ViewsPerVideo * v.conversionRate) AS PotentialProductSalesPerVideo,
 	(ViewsPerVideo * v.conversionRate * productCost) AS PotentialRevenuePerVideo,
