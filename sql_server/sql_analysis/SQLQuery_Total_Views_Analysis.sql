@@ -28,7 +28,7 @@ VALUES(0.02, 200.0, 960000.0);
 
 WITH ViewsVideoCTE AS
 (SELECT 
--- 3)  Filter the CTE by top 10 Youtube Channels with highest count of uploaded Video
+-- 3)  Filter the CTE by top 10 Youtube Channels with highest count of Views
 	TOP 10 Total_Views,
 	Channel_Name, 
 	ROUND(CAST(Total_Views/Total_Videos AS FLOAT), -4) AS ViewsPerVideo
