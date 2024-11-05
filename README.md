@@ -45,7 +45,7 @@ Note:
 ---
 
   #  100 nejlepších českých YouTuberů (2024)
-Tento repozitář poskytuje postup k celému procesu analýzy dat a tvorby dashboardu (o 100 nejlepších youtuberech) od stahování dat, přes jejich zpracování, analýzu a následnou vizualizaci. Postupně procházíme kroky za pomocí nástrojů jako je YouTube API, knihovna Pandas pro manipulaci s daty, SQL pro čištění a organizaci dat a Power BI/Tableau pro analýzu a vizualizaci.
+Tento repozitář poskytuje postup k celému procesu analýzy dat a tvorby dashboardu (o 100 nejlepších youtuberech) od stahování dat, přes jejich zpracování, analýzu a následnou vizualizaci. Postupně procházíme jednotlivými kroky za pomocí nástrojů jako je YouTube API, knihovna Pandas pro manipulaci s daty, SQL pro čištění a organizaci dat a Power BI/Tableau pro analýzu a vizualizaci.
 
 1. Stažení dat:
 - Stáhněte CSV soubor s top 100 nejlepšími youtubery v ČR:  
